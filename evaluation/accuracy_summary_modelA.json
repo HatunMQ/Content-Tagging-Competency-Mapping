@@ -1,0 +1,34 @@
+{
+  "model": "modelA",
+  "total_ground_truth_rows": 85,
+  "scored": 85,
+  "unscored_errors": 0,
+  "missing_from_predictions": 0,
+  "per_field_accuracy": {
+    "Field": {
+      "correct": 79,
+      "scored": 85,
+      "accuracy_pct": 92.9
+    },
+    "Learning_type": {
+      "correct": 80,
+      "scored": 85,
+      "accuracy_pct": 94.1
+    },
+    "Level": {
+      "correct": 54,
+      "scored": 85,
+      "accuracy_pct": 63.5
+    },
+    "Competency": {
+      "correct": 79,
+      "scored": 85,
+      "accuracy_pct": 92.9
+    }
+  },
+  "full_exact_match": {
+    "correct": 49,
+    "scored": 85,
+    "accuracy_pct": 57.6
+  }
+}

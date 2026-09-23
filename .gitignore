@@ -1,0 +1,35 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node / frontend build
+app/interface/node_modules/
+app/interface/dist/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
+
+# Runtime state / logs
+.model_pids/
+*.log
+
+# Fine-tuning large outputs (LoRA checkpoints/adapters, if training was actually run)
+finetune/output/
+**/selected-adapter/
+**/checkpoint-*/
+
+# Pipeline-generated data -- regenerate anytime with ./ingest_pipeline.sh
+data/raw/
+data/extracted/
+data/tagged/

@@ -1,0 +1,112 @@
+{
+  "model": "Qwen3.5-9B",
+  "tag": "modelE",
+  "base_url": "http://localhost:8003/v1",
+  "requests_per_level": 20,
+  "levels": [
+    {
+      "concurrency": 1,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.072,
+        "p50": 0.0647,
+        "p95": 0.0971,
+        "p99": 0.1641
+      },
+      "e2e_latency_s": {
+        "mean": 3.228,
+        "p50": 3.2229,
+        "p95": 3.2539,
+        "p99": 3.3154
+      },
+      "throughput_tokens_per_s": 39.36,
+      "requests_per_s": 0.31,
+      "wall_time_s": 65.04,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": true,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 2,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.1292,
+        "p50": 0.1314,
+        "p95": 0.1479,
+        "p99": 0.1568
+      },
+      "e2e_latency_s": {
+        "mean": 3.3479,
+        "p50": 3.3463,
+        "p95": 3.3569,
+        "p99": 3.3806
+      },
+      "throughput_tokens_per_s": 75.89,
+      "requests_per_s": 0.59,
+      "wall_time_s": 33.74,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": true,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 4,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.1623,
+        "p50": 0.1631,
+        "p95": 0.2019,
+        "p99": 0.2055
+      },
+      "e2e_latency_s": {
+        "mean": 3.4359,
+        "p50": 3.443,
+        "p95": 3.4688,
+        "p99": 3.4759
+      },
+      "throughput_tokens_per_s": 147.24,
+      "requests_per_s": 1.15,
+      "wall_time_s": 17.39,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": true,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 8,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.2032,
+        "p50": 0.1994,
+        "p95": 0.3222,
+        "p99": 0.3393
+      },
+      "e2e_latency_s": {
+        "mean": 3.5162,
+        "p50": 3.5392,
+        "p95": 3.6292,
+        "p99": 3.6471
+      },
+      "throughput_tokens_per_s": 239.08,
+      "requests_per_s": 1.87,
+      "wall_time_s": 10.71,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": false,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    }
+  ]
+}

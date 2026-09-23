@@ -1,0 +1,33 @@
+{
+  "note": "Approximate counts from evaluation/eval_sample.csv — for an exact update, extract them from the full data/extracted/extracted_chunks.jsonl (231 chunks) instead of just the evaluation sample.",
+  "fields": [
+    {
+      "field": "Machine Learning",
+      "count": 49,
+      "level": "Beginner",
+      "description": "Fundamentals of machine learning, decision trees, and the steps to build a model from start to finish.",
+      "topics": ["Decision Tree Modeling", "Machine Learning Workflow"]
+    },
+    {
+      "field": "Data Science",
+      "count": 17,
+      "level": "Beginner",
+      "description": "Data processing and analysis using Pandas — selecting, filtering, and shaping data.",
+      "topics": ["Pandas & Data Wrangling"]
+    },
+    {
+      "field": "Generative AI",
+      "count": 14,
+      "level": "Multi-level",
+      "description": "Prompt engineering and Retrieval-Augmented Generation (RAG) systems for generative models.",
+      "topics": ["Prompt Engineering", "RAG Systems"]
+    },
+    {
+      "field": "SQL",
+      "count": 10,
+      "level": "Beginner–Intermediate",
+      "description": "SQL fundamentals and window functions for advanced queries.",
+      "topics": ["SQL Foundations", "Window Functions"]
+    }
+  ]
+}

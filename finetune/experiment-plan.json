@@ -1,0 +1,38 @@
+{
+  "experiment": "t05-hyperstack-teacher-distillation-20260922",
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "teacher": "Qwen/Qwen3.5-27B",
+  "teacher_revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+  "purpose": "Test whether stronger content-based provisional labels and additional examples improve the 4B model.",
+  "protected_test": "All original 85 eval_sample.csv rows, excluded from teacher labeling, synthesis, training and development. Previously observed, so no longer a blind benchmark.",
+  "training": "Eligible original chunks outside all development source files, plus 270 independently generated educational excerpts, then teacher-labeled. Reject short/invalid/exact/near-duplicate items. Exclude synthetic excerpts whose title explicitly states Beginner, Intermediate or Advanced, to reduce difficulty-label shortcuts. Retain the previous content-quality exclusions for 25 sparse or context-dependent original extracts; none of their prior provisional tag values is used. Final quality gate: retain original examples only when the larger teacher agrees with all four prior provisional content labels; retain synthetic examples only when a separate teacher labeling pass agrees with their intended competency, level, modality and associated field. This is a noise filter, not human validation.",
+  "development": "24 source-document-held-out course chunks reviewed from content by the assistant. These remain provisional, not human team annotations.",
+  "selection": {
+    "primary": "development exact-match count",
+    "secondary": "development per-field correct count",
+    "tie_break": "earlier fine-tuned checkpoint",
+    "base_gate": "Freeze the best fine-tuned checkpoint using development only. Its (exact match, field match) tuple must not fall below base for handoff. Benchmark it once even if this gate fails, so the experiment still produces an honest comparison."
+  },
+  "hyperparameters": {
+    "precision": "BF16 LoRA, no 4-bit quantization",
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "seed": 42,
+    "max_length": 2048
+  },
+  "evaluation": "Freeze development-selected checkpoint before scoring historical benchmark. Same original prompt, BF16, greedy, 200 new tokens, no thinking for both base and selected model. Do not select or tune further using benchmark score. Evaluate the selected adapter after safe merge into the native BF16 model, matching its intended standalone export; the same TF32 settings apply to both models.",
+  "handoff": "All three conditions must pass: development tuple does not fall below base, historical benchmark exact matches improve over fresh base, and fresh 24-row check exact matches do not decrease. Preserve every result even if a gate fails.",
+  "compute": {
+    "reference_gpu": "H100 PCIe 80 GB",
+    "minimum_free_vram_gib": 30,
+    "note": "This package runs on an existing idle CUDA GPU. It does not provision cloud resources."
+  },
+  "data_limitation": "Synthetic and assistant-reviewed labels are not a replacement for human annotation; historical within-corpus test does not establish generalization to new courses.",
+  "fresh_check": "24 original assistant-authored examples, frozen before training. Remain local until selection; secondary evaluation only, provisional labels, no claim of human validation."
+}
