@@ -1,0 +1,16 @@
+.git/
+.gitignore
+venv/
+.venv/
+__pycache__/
+*.pyc
+app/interface/node_modules/
+data/
+reports/
+finetune/prepared/
+finetune/evaluation/
+.model_pids/
+*.log
+.env
+README.md
+PRODUCTION_HANDOFF.md

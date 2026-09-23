@@ -1,0 +1,112 @@
+{
+  "model": "gpt-4o",
+  "tag": "modelB",
+  "base_url": "https://api.openai.com/v1",
+  "requests_per_level": 20,
+  "levels": [
+    {
+      "concurrency": 1,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.5506,
+        "p50": 0.4506,
+        "p95": 0.8402,
+        "p99": 1.5102
+      },
+      "e2e_latency_s": {
+        "mean": 1.1017,
+        "p50": 1.1812,
+        "p95": 1.626,
+        "p99": 1.9556
+      },
+      "throughput_tokens_per_s": 66.97,
+      "requests_per_s": 0.89,
+      "wall_time_s": 22.53,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": false,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 2,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.4278,
+        "p50": 0.4226,
+        "p95": 0.511,
+        "p99": 0.5206
+      },
+      "e2e_latency_s": {
+        "mean": 0.9826,
+        "p50": 0.8534,
+        "p95": 1.375,
+        "p99": 1.7508
+      },
+      "throughput_tokens_per_s": 145.22,
+      "requests_per_s": 1.95,
+      "wall_time_s": 10.25,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": false,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 4,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.4248,
+        "p50": 0.4336,
+        "p95": 0.5155,
+        "p99": 0.5234
+      },
+      "e2e_latency_s": {
+        "mean": 1.0082,
+        "p50": 1.0241,
+        "p95": 1.4884,
+        "p99": 1.7272
+      },
+      "throughput_tokens_per_s": 263.54,
+      "requests_per_s": 3.47,
+      "wall_time_s": 5.77,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": false,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    },
+    {
+      "concurrency": 8,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.4613,
+        "p50": 0.4377,
+        "p95": 0.6352,
+        "p99": 0.6438
+      },
+      "e2e_latency_s": {
+        "mean": 0.9748,
+        "p50": 0.9363,
+        "p95": 1.3475,
+        "p99": 1.3779
+      },
+      "throughput_tokens_per_s": 482.5,
+      "requests_per_s": 6.48,
+      "wall_time_s": 3.09,
+      "slo": {
+        "ttft_p95_target_s": 0.3,
+        "ttft_p95_met": false,
+        "e2e_p95_target_s": 4.0,
+        "e2e_p95_met": true
+      }
+    }
+  ]
+}

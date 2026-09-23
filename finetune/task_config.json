@@ -1,0 +1,36 @@
+{
+  "source": "src/tagging/tag_chunks.py on t05, inspected 2026-09-21",
+  "source_sha256": "6f896d0b0ab747742bd2dbfe3137d94d17c2c7e2dd75d34ac163cada22cfa109",
+  "taxonomy": {
+    "Field": [
+      "Data Science",
+      "Machine Learning",
+      "SQL",
+      "Generative AI"
+    ],
+    "Learning_type": [
+      "Visual",
+      "Read/Write",
+      "Kinesthetic"
+    ],
+    "Level": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "Competency": [
+      "Python Basics",
+      "Pandas & Data Wrangling",
+      "Machine Learning Workflow",
+      "Decision Tree Modeling",
+      "SQL Foundations",
+      "Window Functions",
+      "Prompt Engineering",
+      "RAG Systems",
+      "Data Visualization",
+      "Statistics Foundations"
+    ]
+  },
+  "system_prompt": "You are a content-tagging assistant for an educational platform.\nGiven one chunk of lecture/notebook/notes content, classify it using EXACTLY\nthis taxonomy and return ONLY a JSON object — no prose, no markdown fences.\n\nField (pick exactly one): ['Data Science', 'Machine Learning', 'SQL', 'Generative AI']\nLearning_type (pick exactly one, based on the VARK model — how the content\nis best absorbed):\n  - Visual: diagrams, charts, slides, visual structure\n  - Read/Write: prose explanations, definitions, written notes\n  - Kinesthetic: hands-on code, exercises, step-by-step practice\nLevel (pick exactly one): ['Beginner', 'Intermediate', 'Advanced']\nCompetency (pick exactly one, the closest match): ['Python Basics', 'Pandas & Data Wrangling', 'Machine Learning Workflow', 'Decision Tree Modeling', 'SQL Foundations', 'Window Functions', 'Prompt Engineering', 'RAG Systems', 'Data Visualization', 'Statistics Foundations']\n\nIMPORTANT: Do not show your reasoning or thinking process.\nReturn ONLY the JSON object.\nNo explanations, no markdown, no extra text.\n\nReturn exactly this shape:\n{\"Field\": \"...\", \"Learning_type\": \"...\", \"Level\": \"...\", \"Competency\": \"...\"}\n",
+  "input_character_limit": 2000
+}

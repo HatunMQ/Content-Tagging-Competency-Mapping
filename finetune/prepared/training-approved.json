@@ -1,0 +1,1240 @@
+{
+  "train_sha256": "f8dd1363b1347b30ab495e1c75112a2c32de208ac5ce0468b2160bdd01c4f0a1",
+  "validation_sha256": "ec43d8aa569e6305115f4d68382b2cb7e0cee2d62c4a41790987fb0b6c8d2272",
+  "task_config_sha256": "e3cfc07dceb996e05033b287ac0ad8859d2b9d3d5cc8a94df6292880e7bdf42a",
+  "protected_benchmark_sha256": "f5d8f20a70bd1d9878fd69a258c49dae1bf3899db781e1ee2906bbcd077c94d8",
+  "protected_benchmark_count": 85,
+  "protected_fresh_check_sha256": "a996ba27f2f974f988060b293004c352018721fa37e7929cb4aa2654e1b43671",
+  "protected_fresh_check_count": 24,
+  "content_exclusions_sha256": "8f376e54010733c5f7937741ea6ca5a6d699c424598a75103f6a35619a3e1c1a",
+  "proposed_count": 375,
+  "train_count": 243,
+  "validation_count": 24,
+  "rejected": [
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_22"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_23"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_25"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_27"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_29"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_31"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_32"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_33"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_34"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_36"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_37"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_40"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_42"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Decision Trees Revised.pptx",
+        "slide_43"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_02"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_29"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_31"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_44"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_45"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_46"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_50"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "ML Workflow Introduction.pptx",
+        "slide_53"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Prompt_Engineering.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Prompt_Engineering.ipynb",
+        "section_02"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Prompt_Engineering.ipynb",
+        "section_20"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Retrieval_Augmented_Generation.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Retrieval_Augmented_Generation.ipynb",
+        "section_02"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Retrieval_Augmented_Generation.ipynb",
+        "section_12"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "Retrieval_Augmented_Generation.ipynb",
+        "section_16"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "SQL_Foundations_for_Data_Science.pptx",
+        "slide_04"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "SQL_Foundations_for_Data_Science.pptx",
+        "slide_14"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "SQL_Foundations_for_Data_Science.pptx",
+        "slide_23"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "SQL_Foundations_for_Data_Science.pptx",
+        "slide_24"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx",
+        "q_002"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx",
+        "q_006"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_009.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_011.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_016.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_018.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_020.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_022.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_023.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_024.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_025.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_026.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_039.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_040.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_043.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_045.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_046.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_047.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_049.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_050.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_051.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_052.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_073.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_078.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_079.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_102.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_104.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_106.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_120.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_121.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_122.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_123.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_124.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_125.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_126.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_127.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_128.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_129.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_130.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_131.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_132.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_133.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_134.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_135.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_136.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_137.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_138.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_139.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_140.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_141.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_142.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_143.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_156.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_157.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_158.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_159.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_160.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_161.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_168.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_170.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_181.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_187.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_190.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_191.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_192.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_193.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_194.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_195.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_196.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_197.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_210.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_211.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_212.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_213.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_215.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_219.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_222.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_228.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_229.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_230.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_233.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_235.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_238.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_240.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_241.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_242.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_249.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_251.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_252.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_253.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_255.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_256.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_260.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_263.pptx",
+        "section_01"
+      ],
+      "reasons": [
+        "sparse/context-dependent original content"
+      ]
+    },
+    {
+      "key": [
+        "lesson_264.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_265.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_266.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_268.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    },
+    {
+      "key": [
+        "lesson_269.ipynb",
+        "section_01"
+      ],
+      "reasons": [
+        "synthetic title explicitly states difficulty"
+      ]
+    }
+  ],
+  "benchmark_key_or_text_overlap_after_filter": 0,
+  "train_development_document_overlap": 0,
+  "train_development_text_overlap": 0,
+  "development_benchmark_overlap": 0,
+  "teacher_received_benchmark": false,
+  "original_train_count": 70,
+  "synthetic_train_count": 173,
+  "labels": {
+    "Field": {
+      "Machine Learning": 83,
+      "Data Science": 71,
+      "Generative AI": 54,
+      "SQL": 35
+    },
+    "Learning_type": {
+      "Visual": 109,
+      "Read/Write": 61,
+      "Kinesthetic": 73
+    },
+    "Level": {
+      "Beginner": 112,
+      "Intermediate": 94,
+      "Advanced": 37
+    },
+    "Competency": {
+      "Decision Tree Modeling": 39,
+      "Pandas & Data Wrangling": 24,
+      "Machine Learning Workflow": 44,
+      "Prompt Engineering": 34,
+      "RAG Systems": 20,
+      "SQL Foundations": 23,
+      "Python Basics": 17,
+      "Window Functions": 12,
+      "Data Visualization": 16,
+      "Statistics Foundations": 14
+    }
+  }
+}

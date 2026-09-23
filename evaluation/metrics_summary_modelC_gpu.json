@@ -1,0 +1,88 @@
+{
+  "model": "Llama-3.2-11B-Vision-Instruct",
+  "tag": "modelC_gpu",
+  "base_url": "http://localhost:8001/v1",
+  "requests_per_level": 20,
+  "levels": [
+    {
+      "concurrency": 1,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.1167,
+        "p50": 0.0418,
+        "p95": 0.1349,
+        "p99": 1.2335
+      },
+      "e2e_latency_s": {
+        "mean": 3.0741,
+        "p50": 3.7383,
+        "p95": 3.8293,
+        "p99": 3.846
+      },
+      "throughput_tokens_per_s": 32.34,
+      "requests_per_s": 0.32,
+      "wall_time_s": 61.97
+    },
+    {
+      "concurrency": 2,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 0.0653,
+        "p50": 0.0642,
+        "p95": 0.0749,
+        "p99": 0.0779
+      },
+      "e2e_latency_s": {
+        "mean": 2.9176,
+        "p50": 3.2579,
+        "p95": 3.9976,
+        "p99": 4.0728
+      },
+      "throughput_tokens_per_s": 62.27,
+      "requests_per_s": 0.67,
+      "wall_time_s": 29.9
+    },
+    {
+      "concurrency": 4,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 2.8519,
+        "p50": 2.8856,
+        "p95": 4.0233,
+        "p99": 4.0534
+      },
+      "e2e_latency_s": {
+        "mean": 5.9174,
+        "p50": 6.2157,
+        "p95": 7.951,
+        "p99": 8.0029
+      },
+      "throughput_tokens_per_s": 62.14,
+      "requests_per_s": 0.62,
+      "wall_time_s": 32.17
+    },
+    {
+      "concurrency": 8,
+      "requests": 20,
+      "failed": 0,
+      "ttft_s": {
+        "mean": 7.9734,
+        "p50": 9.6043,
+        "p95": 10.9271,
+        "p99": 10.931
+      },
+      "e2e_latency_s": {
+        "mean": 11.129,
+        "p50": 12.7339,
+        "p95": 14.365,
+        "p99": 14.721
+      },
+      "throughput_tokens_per_s": 61.66,
+      "requests_per_s": 0.6,
+      "wall_time_s": 33.34
+    }
+  ]
+}

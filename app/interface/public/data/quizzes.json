@@ -1,0 +1,238 @@
+{
+  "note": "Real quiz data extracted 1:1 from the two source Excel files (WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx, WK4_D2_Quiz2_EnsembleLearningScenarios_Afternoon.xlsx) -- the only two quizzes that exist for this project. field/competency for both match how they are already tagged in content.json (field: Machine Learning, competency: Machine Learning Workflow).",
+  "correct_option_convention": "1-indexed -- correct_option: N means options[N-1] (0-indexed array) is the correct choice, matching the xlsx 'Correct Answer' column which is numbered against Option 1..Option 5.",
+  "quizzes": [
+    {
+      "id": "wk2-d1-quiz1-intro-to-ml",
+      "title": "Quiz 1 — Intro to ML (Lecture Notebook)",
+      "source_file": "WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx",
+      "field": "Machine Learning",
+      "competency": "Machine Learning Workflow",
+      "question_count": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "CRISP-DM is best described as:",
+          "type": "multiple_choice",
+          "options": [
+            "A Python library for building ML models",
+            "A six-phase, reusable framework for moving from a business question to a data-driven answer",
+            "A classification algorithm used in supervised learning",
+            "A tool for visualizing data distributions"
+          ],
+          "correct_option": 2,
+          "time_seconds": 30,
+          "explanation": "CRISP-DM (Cross Industry Standard Process for Data Mining) is a six-phase framework -- business understanding, data understanding, data preparation, modeling, evaluation, deployment -- that teams loop through as a project develops."
+        },
+        {
+          "id": "q2",
+          "text": "Which three skill areas overlap to make up data science?",
+          "type": "multiple_choice",
+          "options": [
+            "Domain knowledge, Statistics, Programming",
+            "Python, SQL, Excel",
+            "Regression, Classification, Clustering",
+            "Data collection, cleaning, visualization"
+          ],
+          "correct_option": 1,
+          "time_seconds": 30,
+          "explanation": "Data science sits at the intersection of domain knowledge (understanding the problem), statistics (reasoning about uncertainty and evidence), and programming (the tools to do the work)."
+        },
+        {
+          "id": "q3",
+          "text": "What is the key difference between traditional programming and machine learning?",
+          "type": "multiple_choice",
+          "options": [
+            "ML never uses data, only rules",
+            "In ML you show the computer examples and it learns the rule itself, instead of you writing explicit rules",
+            "Traditional programming is always more accurate",
+            "ML only works on image data"
+          ],
+          "correct_option": 2,
+          "time_seconds": 30,
+          "explanation": "Traditional programming applies rules a person wrote. Machine learning is given data and a target, and the algorithm learns the function that maps one to the other."
+        },
+        {
+          "id": "q4",
+          "text": "A supervised learning problem with a categorical target is called:",
+          "type": "multiple_choice",
+          "options": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Dimension Reduction"
+          ],
+          "correct_option": 2,
+          "time_seconds": 30,
+          "explanation": "Supervised learning paired with a categorical target is classification; paired with a continuous target it is regression."
+        },
+        {
+          "id": "q5",
+          "text": "Which of these is an example of unsupervised learning?",
+          "type": "multiple_choice",
+          "options": [
+            "Predicting a house's sale price",
+            "Classifying an email as spam or not spam",
+            "Grouping customers into segments based on behavior, with no labels provided",
+            "Predicting next month's product demand"
+          ],
+          "correct_option": 3,
+          "time_seconds": 30,
+          "explanation": "Clustering (grouping customers by behavior without predefined labels) is unsupervised. The other three all use a labeled target, which makes them supervised."
+        },
+        {
+          "id": "q6",
+          "text": "What does a boolean mask (e.g. unit_prices < 45) applied to a NumPy array return?",
+          "type": "multiple_choice",
+          "options": [
+            "A sorted copy of the array",
+            "An array of True/False values, one per element, that can be used to filter the array",
+            "The single largest value in the array",
+            "A Python list with the array's values removed"
+          ],
+          "correct_option": 2,
+          "time_seconds": 30,
+          "explanation": "Comparing an array to a value produces an element-wise True/False array. That mask can then index the original array to keep only the entries where the condition is True."
+        },
+        {
+          "id": "q7",
+          "text": "Scenario: A retail chain wants to predict how many units of a product it will sell next month, a specific number. Which type of ML problem is this?",
+          "type": "multiple_choice",
+          "options": [
+            "Classification",
+            "Clustering",
+            "Regression",
+            "Dimension Reduction"
+          ],
+          "correct_option": 3,
+          "time_seconds": 60,
+          "explanation": "Predicting a continuous numeric target (units sold) is a regression problem: 'How much inventory will we need?' translates to 'predict next month's demand,' a regression task."
+        },
+        {
+          "id": "q8",
+          "text": "Scenario: A telecom company wants to flag which customers are likely to cancel their subscription (yes/no). Which ML approach fits best?",
+          "type": "multiple_choice",
+          "options": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Dimension Reduction"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "Predicting a yes/no (categorical) outcome is classification: 'Which customers may leave?' translates to 'predict churn: yes or no,' a classification task."
+        },
+        {
+          "id": "q9",
+          "text": "Scenario: A finance team needs to calculate the tax owed on a transaction using a fixed formula set by law, the logic never changes. What is the most appropriate approach?",
+          "type": "multiple_choice",
+          "options": [
+            "Machine Learning",
+            "Generative AI",
+            "A rules-based approach",
+            "Deep Learning"
+          ],
+          "correct_option": 3,
+          "time_seconds": 60,
+          "explanation": "Tax calculation follows clear, fixed logic that doesn't need to be learned from data, which makes it a better fit for a rules-based approach than ML."
+        },
+        {
+          "id": "q10",
+          "text": "Scenario: A new team has almost no historical data and no clear, repeatable pattern for the outcome they want to predict. Should they build an ML model now?",
+          "type": "multiple_choice",
+          "options": [
+            "Yes, ML works well regardless of how much data exists",
+            "No, ML works best when there is a clear prediction target, sufficient historical data, and a repeatable pattern",
+            "Yes, because ML requires no historical data at all",
+            "No, because ML can only ever be used for image tasks"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "Good ML use cases need historical data, repeated similar decisions, and measurable patterns. Without data or a pattern, it is not yet a good ML opportunity."
+        }
+      ],
+      "short_title": "Quiz 1"
+    },
+    {
+      "id": "wk4-d2-quiz2-ensemble-learning",
+      "title": "Quiz 2 — Ensemble Learning Scenarios (Afternoon)",
+      "source_file": "WK4_D2_Quiz2_EnsembleLearningScenarios_Afternoon.xlsx",
+      "field": "Machine Learning",
+      "competency": "Machine Learning Workflow",
+      "question_count": 5,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "A bank's credit-scoring team needs a model whose decisions can be explained clearly to regulators and to rejected applicants. They are choosing between a single decision tree and a 500-tree gradient boosting ensemble that scores slightly higher accuracy. Which consideration is the strongest argument for the single tree despite its lower accuracy?",
+          "type": "multiple_choice",
+          "options": [
+            "A single tree trains faster on small datasets",
+            "Ensembles are inherently less accurate than single trees, so the choice is easy",
+            "In a regulated setting, a single tree's logic can be drawn and explained on one page, while a large ensemble's combined decision logic is far harder to interpret",
+            "Single trees always generalize better than boosted ensembles"
+          ],
+          "correct_option": 3,
+          "time_seconds": 60,
+          "explanation": "Interpretability, not accuracy, is the deciding factor here: in regulated domains like credit, being able to explain a decision can matter more than a small accuracy gain, and a single tree is far easier to explain than hundreds of boosted trees."
+        },
+        {
+          "id": "q2",
+          "text": "A data scientist trains a gradient boosting regressor and steadily increases the number of trees while keeping the learning rate fixed. Training error keeps dropping toward zero, but validation error starts rising after a certain point. What is happening?",
+          "type": "multiple_choice",
+          "options": [
+            "The model has run out of memory",
+            "The ensemble has moved past the point where new trees capture real signal, and additional trees are now fitting noise in the training data",
+            "The learning rate must be set too low",
+            "Boosting cannot overfit, so this must be a bug in the validation split"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "This is the classic boosting overfitting pattern: once the real signal has been captured, each additional tree keeps fitting the remaining errors, which eventually means fitting noise -- pushing validation error back up even as training error keeps falling."
+        },
+        {
+          "id": "q3",
+          "text": "A team is modeling data with several high-cardinality categorical features (such as zip code and merchant type) and wants to avoid spending time on manual one-hot encoding. Which ensemble approach is best suited to handle this with minimal preprocessing?",
+          "type": "multiple_choice",
+          "options": [
+            "A voting ensemble of linear regressions",
+            "CatBoost, since it natively encodes categorical columns using target statistics instead of requiring one-hot encoding",
+            "A single, un-tuned decision tree",
+            "Plain bagging with the categorical columns left as unmodified text"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "CatBoost is built specifically to handle categorical columns natively, encoding them internally rather than requiring manual one-hot encoding, which fits this scenario well."
+        },
+        {
+          "id": "q4",
+          "text": "A company needs the fastest possible training time on a dataset with tens of millions of rows, and is willing to accept a small amount of precision loss in exchange for speed. Which ensemble approach is designed specifically for this tradeoff?",
+          "type": "multiple_choice",
+          "options": [
+            "Stacking with five base models and a meta-model",
+            "LightGBM, which uses histogram-based splitting and leaf-wise tree growth built for speed on large datasets",
+            "A voting ensemble of three shallow decision trees",
+            "Gradient boosting with unusually deep trees (e.g. max_depth=20)"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "LightGBM's histogram-based splitting and leaf-wise growth trade a little precision for a large speed gain, making it the natural choice when training time on very large data is the priority."
+        },
+        {
+          "id": "q5",
+          "text": "A team builds a stacked ensemble combining a random forest, a boosted model, and a linear model, using a meta-model trained on each base model's out-of-fold predictions. The final stack improves test performance by only a fraction of a percent over the best single base model, despite tripling total training time. What does this best illustrate?",
+          "type": "multiple_choice",
+          "options": [
+            "Stacking always fails and should never be used",
+            "Stacking often yields only a small incremental gain over the best single model at a much higher training cost, which is why it's typically the last technique reached for",
+            "The out-of-fold step must have been done incorrectly, since stacking should always clearly beat every base model",
+            "Test performance cannot be used to evaluate a stacked ensemble"
+          ],
+          "correct_option": 2,
+          "time_seconds": 60,
+          "explanation": "Stacking is the most expensive technique here and usually delivers the smallest incremental gain over the best single model, so it is generally the last thing reached for, not the first."
+        }
+      ],
+      "short_title": "Quiz 2"
+    }
+  ]
+}

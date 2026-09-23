@@ -1,0 +1,74 @@
+{
+  "note": "بيانات تجريبية بالكامل — لا يوجد نظام تتبع متعلمين فعلي بعد.",
+  "courses": [
+    {
+      "title": "Machine Learning Fundamentals",
+      "status": "قيد التقدم",
+      "completion": 62,
+      "stats": [
+        { "value": "6h", "label": "ساعات" },
+        { "value": "5", "label": "فصول" },
+        { "value": "18", "label": "محتويات" }
+      ]
+    },
+    {
+      "title": "Data Wrangling with Pandas",
+      "status": "موصى به",
+      "completion": 10,
+      "stats": [
+        { "value": "3h", "label": "ساعات" },
+        { "value": "3", "label": "فصول" },
+        { "value": "9", "label": "محتويات" }
+      ]
+    }
+  ],
+  "currentCourse": {
+    "title": "Machine Learning Fundamentals",
+    "chapters": [
+      {
+        "title": "الأسبوع 1 — مقدمة في ML Workflow",
+        "sessions": [
+          { "title": "Loading Data (INPUT)", "done": true },
+          { "title": "Understanding the ML Workflow", "done": true },
+          { "title": "In-depth Example", "done": true }
+        ]
+      },
+      {
+        "title": "الأسبوع 2 — Decision Trees",
+        "sessions": [
+          { "title": "كيف تعمل أشجار القرار", "done": true },
+          { "title": "بناء نموذج شجرة قرار", "done": false },
+          { "title": "تقييم النموذج", "done": false }
+        ]
+      }
+    ]
+  },
+  "learningPlanNote": "التركيز الأسبوع الجاي: تمارين إضافية على تقييم النماذج (نسبة الإتقان الحالية 63%).",
+  "progress": {
+    "readinessPct": 71,
+    "gapsCount": 2,
+    "evidenceAnalyzed": 18,
+    "interventionsSuggested": 3,
+    "competencies": [
+      { "name": "Decision Tree Modeling", "pct": 78 },
+      { "name": "Machine Learning Workflow", "pct": 82 },
+      { "name": "Pandas & Data Wrangling", "pct": 65 },
+      { "name": "SQL Foundations", "pct": 55 },
+      { "name": "Prompt Engineering", "pct": 40 }
+    ],
+    "gaps": [
+      {
+        "priority": "عالية",
+        "title": "ضعف بتقييم النماذج",
+        "description": "المتعلم يواجه صعوبة بتفسير confusion matrix ومقاييس التقييم.",
+        "evidence": "3 محاولات خاطئة على تمارين تقييم النماذج"
+      },
+      {
+        "priority": "متوسطة",
+        "title": "Prompt Engineering لسا بالبداية",
+        "description": "لم يبدأ المتعلم بعد بمحتوى هندسة البرومبت المتقدم.",
+        "evidence": "0/4 جلسات مكتملة بهذا المسار"
+      }
+    ]
+  }
+}

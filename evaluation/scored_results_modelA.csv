@@ -1,0 +1,86 @@
+file_name,chunk_id,status,Field_ground_truth,Field_predicted,Field_match,Learning_type_ground_truth,Learning_type_predicted,Learning_type_match,Level_ground_truth,Level_predicted,Level_match,Competency_ground_truth,Competency_predicted,Competency_match,all_fields_match
+Decision Trees Revised.pptx,slide_41,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_08,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_02,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Decision Tree Modeling,Decision Tree Modeling,True,False
+Decision Trees Revised.pptx,slide_48,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Machine Learning Workflow,False,False
+Decision Trees Revised.pptx,slide_18,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_16,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Decision Tree Modeling,Decision Tree Modeling,True,False
+Decision Trees Revised.pptx,slide_15,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Decision Tree Modeling,Decision Tree Modeling,True,False
+Decision Trees Revised.pptx,slide_09,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_07,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_35,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_06,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_38,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Advanced,Intermediate,False,Decision Tree Modeling,Decision Tree Modeling,True,False
+Decision Trees Revised.pptx,slide_28,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_03,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_49,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_51,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Decision Tree Modeling,Decision Tree Modeling,True,False
+Decision Trees Revised.pptx,slide_14,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Decision Trees Revised.pptx,slide_45,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+HandsOn1_Window_Functions.md,section_01,scored,SQL,SQL,True,Kinesthetic,Kinesthetic,True,Intermediate,Intermediate,True,Window Functions,Window Functions,True,True
+Introduction to Pandas_.pptx,slide_36,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_13,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_27,scored,Data Science,Data Science,True,Visual,Visual,True,Intermediate,Intermediate,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_15,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_29,scored,Data Science,Data Science,True,Visual,Visual,True,Intermediate,Intermediate,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_19,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_09,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_26,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_28,scored,Data Science,Data Science,True,Visual,Visual,True,Intermediate,Intermediate,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_06,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Introduction to Pandas_.pptx,slide_23,scored,Data Science,Data Science,True,Visual,Visual,True,Beginner,Intermediate,False,Pandas & Data Wrangling,Pandas & Data Wrangling,True,False
+Lecture - Decision Trees.ipynb,section_04,scored,Machine Learning,Machine Learning,True,Kinesthetic,Kinesthetic,True,Intermediate,Intermediate,True,Decision Tree Modeling,Decision Tree Modeling,True,True
+Lecture - Pandas Basics.ipynb,section_06,scored,Data Science,Data Science,True,Read/Write,Read/Write,True,Beginner,Intermediate,False,Pandas & Data Wrangling,Pandas & Data Wrangling,True,False
+Lecture - Pandas Basics.ipynb,section_05,scored,Data Science,Data Science,True,Read/Write,Read/Write,True,Beginner,Intermediate,False,Pandas & Data Wrangling,Pandas & Data Wrangling,True,False
+Lecture - Pandas Basics.ipynb,section_03,scored,Data Science,Data Science,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Lecture - Pandas Basics.ipynb,section_04,scored,Data Science,Data Science,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Pandas & Data Wrangling,Pandas & Data Wrangling,True,True
+Lecture_ML_Workflow.ipynb,section_13,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+Lecture_ML_Workflow.ipynb,section_06,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+Lecture_ML_Workflow.ipynb,section_02,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+Lecture_ML_Workflow.ipynb,section_12,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+Lecture_ML_Workflow.ipynb,section_07,scored,Machine Learning,Machine Learning,True,Read/Write,Visual,False,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_07,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_23,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_52,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_39,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_17,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_47,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_35,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_08,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_25,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_06,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_36,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+ML Workflow Introduction.pptx,slide_19,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_24,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_37,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_13,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Intermediate,Intermediate,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+ML Workflow Introduction.pptx,slide_48,scored,Machine Learning,Machine Learning,True,Visual,Visual,True,Beginner,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+Prompt_Engineering.ipynb,section_22,scored,Generative AI,Machine Learning,False,Read/Write,Read/Write,True,Beginner,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_08,scored,Generative AI,Machine Learning,False,Kinesthetic,Read/Write,False,Beginner,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_10,scored,Generative AI,Machine Learning,False,Read/Write,Read/Write,True,Beginner,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_03,scored,Generative AI,Generative AI,True,Kinesthetic,Visual,False,Beginner,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_21,scored,Generative AI,Generative AI,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_04,scored,Generative AI,Machine Learning,False,Read/Write,Read/Write,True,Beginner,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_13,scored,Generative AI,Machine Learning,False,Read/Write,Read/Write,True,Intermediate,Intermediate,True,Prompt Engineering,Prompt Engineering,True,False
+Prompt_Engineering.ipynb,section_05,scored,Generative AI,Machine Learning,False,Read/Write,Read/Write,True,Advanced,Intermediate,False,Prompt Engineering,Prompt Engineering,True,False
+Retrieval_Augmented_Generation.ipynb,section_15,scored,Generative AI,Generative AI,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,RAG Systems,Prompt Engineering,False,False
+Retrieval_Augmented_Generation.ipynb,section_11,scored,Generative AI,Generative AI,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,RAG Systems,Prompt Engineering,False,False
+Retrieval_Augmented_Generation.ipynb,section_14,scored,Generative AI,Generative AI,True,Kinesthetic,Kinesthetic,True,Intermediate,Intermediate,True,RAG Systems,Prompt Engineering,False,False
+Retrieval_Augmented_Generation.ipynb,section_06,scored,Generative AI,Generative AI,True,Kinesthetic,Read/Write,False,Intermediate,Intermediate,True,RAG Systems,Prompt Engineering,False,False
+Retrieval_Augmented_Generation.ipynb,section_03,scored,Generative AI,Generative AI,True,Kinesthetic,Visual,False,Beginner,Intermediate,False,RAG Systems,Prompt Engineering,False,False
+Retrieval_Augmented_Generation.ipynb,section_13,scored,Generative AI,Generative AI,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,RAG Systems,RAG Systems,True,False
+SQL_Foundations_for_Data_Science.pptx,slide_12,scored,SQL,SQL,True,Visual,Visual,True,Intermediate,Intermediate,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_07,scored,SQL,SQL,True,Visual,Visual,True,Beginner,Beginner,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_22,scored,SQL,SQL,True,Visual,Visual,True,Intermediate,Beginner,False,SQL Foundations,SQL Foundations,True,False
+SQL_Foundations_for_Data_Science.pptx,slide_09,scored,SQL,SQL,True,Visual,Visual,True,Beginner,Beginner,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_21,scored,SQL,SQL,True,Visual,Visual,True,Intermediate,Intermediate,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_03,scored,SQL,SQL,True,Visual,Visual,True,Beginner,Beginner,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_06,scored,SQL,SQL,True,Visual,Visual,True,Beginner,Beginner,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_18,scored,SQL,SQL,True,Visual,Visual,True,Intermediate,Intermediate,True,SQL Foundations,SQL Foundations,True,True
+SQL_Foundations_for_Data_Science.pptx,slide_08,scored,SQL,SQL,True,Visual,Visual,True,Beginner,Beginner,True,SQL Foundations,SQL Foundations,True,True
+WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx,q_003,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx,q_008,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx,q_007,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+WK2_D1_Quiz1_IntroToML_LectureNotebook.xlsx,q_010,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Beginner,Beginner,True,Machine Learning Workflow,Machine Learning Workflow,True,True
+WK4_D2_Quiz2_EnsembleLearningScenarios_Afternoon.xlsx,q_005,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False
+WK4_D2_Quiz2_EnsembleLearningScenarios_Afternoon.xlsx,q_002,scored,Machine Learning,Machine Learning,True,Read/Write,Read/Write,True,Advanced,Intermediate,False,Machine Learning Workflow,Machine Learning Workflow,True,False

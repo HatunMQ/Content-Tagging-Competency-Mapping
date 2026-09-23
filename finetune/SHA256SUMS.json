@@ -1,0 +1,17 @@
+{
+  "README.md": "de8eb639e20929b21b960325b1cb175a2326f26cc216e5b9b3c59b9539cd7b2e",
+  "cloud_run.py": "37760ad83ee51d01e189895e1b33fa6eeedff894669613f09f1572ebbcd696ac",
+  "evaluation/benchmark.jsonl": "f5d8f20a70bd1d9878fd69a258c49dae1bf3899db781e1ee2906bbcd077c94d8",
+  "evaluation/fresh-check.jsonl": "a996ba27f2f974f988060b293004c352018721fa37e7929cb4aa2654e1b43671",
+  "experiment-plan.json": "70e6fb9cd7b2613b5924bcb84c55b716714a5196b470e4263dd32bfe9deb7759",
+  "export_model.py": "574e776debf6115526712e19b9d9f4b5f1a12094bca0eefdb1742a38dd78cb3b",
+  "finetune.py": "f8e08f0a5f6ed31836c88a2472c1559c890873a1bc326128f2499836b7ae4ba1",
+  "prepared/train.jsonl": "f8dd1363b1347b30ab495e1c75112a2c32de208ac5ce0468b2160bdd01c4f0a1",
+  "prepared/training-approved.json": "613e4bd5650bd5e7eeb9cb999e8748408cfbcbec0e46b365ec5ec44e1f3911d3",
+  "prepared/validation.jsonl": "ec43d8aa569e6305115f4d68382b2cb7e0cee2d62c4a41790987fb0b6c8d2272",
+  "requirements.txt": "67897ec5cfdd6dbe19754ec406deb703bd2358829a79adbdc19b0839dbcb7625",
+  "run_experiment.py": "46a09f1254a9c71eb2495ebad665ebdf1127516508b517a411e5661706ba6821",
+  "summarize_results.py": "ba0eaefb08af964b2ca305df2f5242f73ce19f1c7f97b6081448df57fb3ecaca",
+  "task_config.json": "e3cfc07dceb996e05033b287ac0ad8859d2b9d3d5cc8a94df6292880e7bdf42a",
+  "team_compare_results.py": "f9771a4843f114a869a9a7730624f7fb5341b30897ea52f51f6ff49e4768b953"
+}

@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: model-d-qwen35
+  namespace: contentmap
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: model-d-qwen35
+  template:
+    metadata:
+      labels:
+        app: model-d-qwen35
+    spec:
+      containers:
+        - name: vllm
+          image: vllm/vllm-openai:nightly
+          args:
+            - "--model=Qwen/Qwen3.5-4B"
+            - "--served-model-name=Qwen3.5-4B"
+            - "--host=0.0.0.0"
+            - "--port=8000"
+            - "--trust-remote-code"
+            - "--max-model-len=32768"
+            - "--max-num-seqs=16"
+            - "--gpu-memory-utilization=0.5"
+          ports:
+            - containerPort: 8000
+          env:
+            - name: HF_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-token
+                  key: token
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          volumeMounts:
+            - name: hf-cache
+              mountPath: /root/.cache/huggingface
+      volumes:
+        - name: hf-cache
+          emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: model-d-qwen35-svc
+  namespace: contentmap
+spec:
+  selector:
+    app: model-d-qwen35
+  ports:
+    - port: 8000
+      targetPort: 8000
+  type: ClusterIP
